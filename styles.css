@@ -263,7 +263,7 @@ section {
 /* Point de rupture pour les tablettes et les écrans plus grands */
 /* Utilisation de 'em' pour des points de rupture basés sur la taille du texte */
 @media (min-width: 48em) { /* 768px */
-  .page-container {
+ .page-container {
         padding: 0 calc(var(--spacing-unit) * 4);
     }
 
@@ -271,7 +271,7 @@ section {
         text-align: left;
     }
 
-  .hero-content {
+ .hero-content {
         margin: 0;
     }
 }
