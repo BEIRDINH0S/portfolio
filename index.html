@@ -3,37 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio de [Votre Nom]</title>
-    <link rel="stylesheet" href="style.css">
+    <title>John Doe - Développeur Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>[Votre Nom]</h1>
-        <p>Développeur Web | Créatif | Passionné de Technologie</p>
-    </header>
-    <main>
-        <section id="a-propos">
-            <h2>À propos de moi</h2>
-            <p>Remplacez ce texte par une brève description de votre parcours, vos passions et vos objectifs professionnels. Parlez de ce qui vous motive dans le monde du développement.</p>
-        </section>
-        <section id="projets">
-            <h2>Mes Projets</h2>
-            <article class="projet">
-                <h3>Nom du Projet 1</h3>
-                <p>Description du projet. Quelles technologies avez-vous utilisées? Quel problème avez-vous résolu? N'hésitez pas à ajouter un lien vers le dépôt GitHub du projet ou une démo en ligne.</p>
-            </article>
-            <article class="projet">
-                <h3>Nom du Projet 2</h3>
-                <p>Description d'un autre projet marquant. Mettez en avant les défis techniques que vous avez surmontés.</p>
-            </article>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Vous pouvez me contacter par email à : <a href="mailto:votre.email@example.com">votre.email@example.com</a> ou via mes réseaux professionnels.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 - [Votre Nom]</p>
-    </footer>
+
+    <div class="page-container">
+
+        <header id="header">
+            <nav id="navbar">
+                <div class="logo">JD.</div>
+                <ul>
+                    <li><a href="#hero">Accueil</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section id="hero">
+                <div class="hero-content">
+                    <h1 class="hero-headline">Créateur d'expériences numériques innovantes.</h1>
+                    <p class="hero-subheadline">Développeur Front-End spécialisé dans la création d'interfaces utilisateur réactives et performantes.</p>
+                    <a href="#contact" class="cta-button">Me contacter</a>
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2>Mes Projets</h2>
+                <div class="project-grid">
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x300.png/112240/64FFDA?text=Projet+Un" alt="Aperçu du projet Un">
+                        <div class="project-info">
+                            <h3>Plateforme E-commerce</h3>
+                            <p>Une application web complète construite avec React et Node.js, offrant une expérience d'achat fluide.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>CSS Grid</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x300.png/112240/64FFDA?text=Projet+Deux" alt="Aperçu du projet Deux">
+                        <div class="project-info">
+                            <h3>Tableau de Bord Analytique</h3>
+                            <p>Visualisation de données interactive pour le suivi des métriques clés, utilisant D3.js et Flexbox.</p>
+                            <div class="project-tags">
+                                <span>D3.js</span>
+                                <span>JavaScript</span>
+                                <span>Flexbox</span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x300.png/112240/64FFDA?text=Projet+Trois" alt="Aperçu du projet Trois">
+                        <div class="project-info">
+                            <h3>Site Vitrine Statique</h3>
+                            <p>Un site marketing rapide et optimisé pour le SEO, généré avec un accent sur la performance et l'accessibilité.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>Accessibilité</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="about">
+                <h2>À Propos de Moi</h2>
+                <div class="about-content">
+                    <p>Passionné par la résolution de problèmes complexes et la création de belles interfaces, j'ai plus de 5 ans d'expérience dans le développement web. Je crois en un code propre, testable et maintenable. En dehors du code, j'aime la randonnée et la photographie.</p>
+                    <h3>Compétences Clés</h3>
+                    <ul class="skills-list">
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>React & Vue.js</li>
+                        <li>Node.js</li>
+                        <li>CSS Grid & Flexbox</li>
+                        <li>Git & GitHub</li>
+                        <li>Figma</li>
+                        <li>Accessibilité Web (WCAG)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h2>Contact</h2>
+                <p>Intéressé(e) par une collaboration? N'hésitez pas à me contacter.</p>
+                <a href="mailto:email@example.com" class="cta-button">Envoyer un e-mail</a>
+            </section>
+
+        </main>
+
+        <footer id="footer">
+            <p>&copy; 2025 John Doe. Tous droits réservés.</p>
+            <div class="social-links">
+                <a href="#">GitHub</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+            </div>
+        </footer>
+
+    </div>
 </body>
 </html>
